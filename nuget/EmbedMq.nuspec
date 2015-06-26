@@ -2,13 +2,14 @@
 <package >
   <metadata>
     <id>EmbedMq</id>
-    <version>5.10.0.0</version>
+    <version>5.10.0.1</version>
     <authors>tom.rathbone@gmail.com</authors>
     <owners>tom.rathbone@gmail.com</owners>
+    <projectUrl>https://github.com/chillitom/EmbedMq</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>ActiveMQ compiled to run on the JVM. Run AMQ in process for testing purposes.</description>
+    <description>ActiveMQ compiled to run on the CLR for embedding and testing purposes.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2015</copyright>
-    <tags>ActiveMQ</tags>
+    <tags>ActiveMQ NMS</tags>
   </metadata>  
 </package>
