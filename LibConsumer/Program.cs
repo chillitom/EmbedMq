@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Reactive.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Apache.NMS.ActiveMQ;
 using Apache.NMS.ActiveMQ.Commands;
 using EmbedMq;
@@ -15,17 +10,15 @@ namespace LibConsumer
     {
         private static readonly ActiveMQTopic Topic = new ActiveMQTopic("TestTopic");
 
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("{0} Starting..", DateTime.Now);
-
             using (var broker = new EmbeddedBroker())
             {
                 Console.WriteLine("{0} Started", DateTime.Now);
 
-                Console.WriteLine("Client connecting to: {0}", broker.Uri);
+                Console.WriteLine("Client connecting to: {0}", broker.FailoverUri);
 
-                ConnectionFactory connectionFactory = new ConnectionFactory(broker.Uri);
+                ConnectionFactory connectionFactory = new ConnectionFactory(broker.FailoverUri);
 
                 var connection = connectionFactory.CreateConnection();
 
