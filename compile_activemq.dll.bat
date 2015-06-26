@@ -1,0 +1,1 @@
+IKVM\ikvmc.exe activemq-all-5.10.0.jar -out:ActiveMq.dll -platform:anycpu -target:library

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EmbedMq</id>
+    <version>5.10.0.0</version>
+    <authors>tom.rathbone@gmail.com</authors>
+    <owners>tom.rathbone@gmail.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ActiveMQ compiled to run on the JVM. Run AMQ in process for testing purposes.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>ActiveMQ</tags>
+  </metadata>  
+</package>

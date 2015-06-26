@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbedMq", "EmbedMq\EmbedMq.csproj", "{C9C10988-DF5D-4DE3-BF90-F4299B734FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibConsumer", "LibConsumer\LibConsumer.csproj", "{D516B11F-8B3C-47B3-899C-7EBEA5D737E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9C10988-DF5D-4DE3-BF90-F4299B734FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C10988-DF5D-4DE3-BF90-F4299B734FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C10988-DF5D-4DE3-BF90-F4299B734FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C10988-DF5D-4DE3-BF90-F4299B734FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D516B11F-8B3C-47B3-899C-7EBEA5D737E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D516B11F-8B3C-47B3-899C-7EBEA5D737E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D516B11F-8B3C-47B3-899C-7EBEA5D737E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D516B11F-8B3C-47B3-899C-7EBEA5D737E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
